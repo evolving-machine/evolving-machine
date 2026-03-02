@@ -16,7 +16,7 @@ import fileinput
 
 def handle_sigint(signum, frame):
     # Send the acknowledgment to stderr
-    sys.stderr.write("machine-name: SIGINT received, exiting.\n")
+    sys.stderr.write("evolving-machine: SIGINT received, exiting.\n")
     sys.stderr.flush()
     sys.exit(0)
 
